@@ -1,4 +1,4 @@
-name = "socketsignalling"
+name = "nexlink"
 main = "src/index.js"
 compatibility_date = "2024-12-18"
 workers_dev = true
