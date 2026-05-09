@@ -1,0 +1,14 @@
+{
+  "name": "Socket-Signalling",
+  "version": "2.1.0",
+  "description": "Handshake For Socket",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "latest"
+  }
+}

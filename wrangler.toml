@@ -1,0 +1,12 @@
+name = "Socket-Signalling"
+main = "src/index.js"
+compatibility_date = "2024-12-18"
+workers_dev = true
+
+[[durable_objects.bindings]]
+name = "SOCKET_OBJECT"
+class_name = "SocketObject"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["SocketObject"]
